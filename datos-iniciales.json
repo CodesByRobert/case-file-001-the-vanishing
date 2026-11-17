@@ -1,228 +1,231 @@
 {
- "partidas": {
-  "caso-001": {
-   "sobres": {
-    "P-01": {
-     "tipo": "visitor",
-     "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
-     "sub": "VISITOR PASS",
-     "cargo": "CONSULTOR/A DE REVISIÓN FORENSE",
-     "unidad": "IDENTIDAD FICTICIA: DR./DRA. L. SERRANO",
-     "acceso": "ACCESO 02",
-     "bloqueado": false,
-     "secciones": [
-      {
-       "t": "TU CONEXIÓN CON EL CASO",
-       "x": "En 2021, durante una rotación ficticia en un centro de revisión documental, detectaste que la muestra de sangre del almacén 14 no permitía concluir una muerte. El informe preliminar fue cambiado antes de archivarse. Conservaste una copia de la observación y nunca supiste quién la retiró del expediente."
+  "partidas": {
+    "caso-001": {
+      "sobres": {
+        "P-01": {
+          "tipo": "visitor",
+          "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
+          "sub": "VISITOR PASS",
+          "cargo": "CONSULTOR/A DE REVISIÓN FORENSE",
+          "unidad": "IDENTIDAD FICTICIA: DR./DRA. L. SERRANO",
+          "acceso": "ACCESO 02",
+          "bloqueado": false,
+          "secciones": [
+            {
+              "t": "TU CONEXIÓN CON EL CASO",
+              "x": "En 2021, durante una rotación ficticia en un centro de revisión documental, detectaste que la muestra de sangre del almacén 14 no permitía concluir una muerte. El informe preliminar fue cambiado antes de archivarse. Conservaste una copia de la observación y nunca supiste quién la retiró del expediente."
+            },
+            {
+              "t": "TU SECRETO",
+              "x": "Tu secreto no es que seas culpable ni que hayas ayudado a PALISADE. Tu secreto es que guardaste una copia de una observación que contradice el informe oficial. Te callaste porque recibiste una advertencia de que revelar el documento podía poner en peligro a una persona protegida."
+            },
+            {
+              "t": "PISTA QUE PUEDES REVELAR SI TE PREGUNTAN",
+              "x": "«La muestra demuestra presencia de sangre, no muerte. El informe convirtió una posibilidad en una conclusión»."
+            },
+            {
+              "t": "OBJETIVO FINAL",
+              "x": "Decidir si entregas tu copia para fortalecer la revisión independiente. No reveles esta conexión hasta que el grupo haya recibido EVIDENCIA 003 o hasta que dirección lo indique."
+            }
+          ]
+        },
+        "P-02": {
+          "tipo": "police",
+          "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
+          "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
+          "cargo": "AGENTE DE ENLACE — IDENTIDAD OPERATIVA L-02",
+          "unidad": "AFILIACIÓN APARENTE: Miami Metro | AFILIACIÓN REAL: contratista de integridad vinculado a MERIDIAN",
+          "acceso": "ACCESO 03",
+          "bloqueado": false,
+          "secciones": [
+            {
+              "t": "PERFIL",
+              "x": "Tu fortaleza es actuar, sostener versiones y desconfiar. No eres el culpable principal."
+            },
+            {
+              "t": "INFORMACIÓN CONFIDENCIAL",
+              "x": "En 2021 recibiste una instrucción de no usar canales oficiales para registrar movimientos de un activo. Nunca te dijeron el nombre real del activo."
+            },
+            {
+              "t": "OBJETIVO",
+              "x": "Averiguar quién conoce la salida por puerta de carga y comprobar si alguien intenta presentar la extracción como una orden oficial del FBI."
+            },
+            {
+              "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
+              "x": "PUEDES OCULTAR: que tu afiliación aparente no es la completa. NO PUEDES INVENTAR: no tienes pruebas de que N-17 muriera."
+            }
+          ]
+        },
+        "P-03": {
+          "tipo": "police",
+          "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
+          "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
+          "cargo": "INVESTIGADOR/A DE CAMPO — MIAMI METRO",
+          "unidad": "MIAMI FIELD UNIT",
+          "acceso": "ACCESO 02",
+          "bloqueado": false,
+          "secciones": [
+            {
+              "t": "PERFIL",
+              "x": "Tu fortaleza es observar, conversar y conectar testimonios."
+            },
+            {
+              "t": "INFORMACIÓN CONFIDENCIAL",
+              "x": "El informe original tiene una omisión material: no adjunta el anexo de control de puerta de carga. La cadena de custodia del expediente fue cerrada demasiado rápido."
+            },
+            {
+              "t": "OBJETIVO",
+              "x": "Conseguir que dos participantes comparen la hora 21:50 con la hora 22:14 y expliquen por qué no coinciden."
+            },
+            {
+              "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
+              "x": "PUEDES OCULTAR: que sospechas que el cierre del caso fue apresurado. NO PUEDES INVENTAR: no conoces la identidad de N-17 antes de la USB."
+            }
+          ]
+        },
+        "P-04": {
+          "tipo": "police",
+          "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
+          "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
+          "cargo": "ENLACE COMUNITARIO/A Y AUXILIAR DE ENTREVISTAS",
+          "unidad": "ENTREVISTAS — MIAMI METRO",
+          "acceso": "ACCESO 01",
+          "bloqueado": false,
+          "secciones": [
+            {
+              "t": "PERFIL",
+              "x": "Tu fortaleza es ser directa, expresiva y presionar al equipo. Tu personaje puede equivocarse y corregirse."
+            },
+            {
+              "t": "INFORMACIÓN CONFIDENCIAL",
+              "x": "Un testigo de la zona dijo que vio una furgoneta salir después de que la policía declarara el perímetro asegurado. El testigo no pudo identificar conductor ni ocupantes."
+            },
+            {
+              "t": "OBJETIVO",
+              "x": "Lograr que el equipo discuta la posibilidad de que el informe original sea falso. Puedes señalar sospechosos, pero tendrás que justificarte cuando te pidan pruebas."
+            },
+            {
+              "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
+              "x": "PUEDES OCULTAR: la identidad del testigo. NO PUEDES INVENTAR: el testigo no vio quién iba dentro de la furgoneta."
+            }
+          ]
+        },
+        "P-05": {
+          "tipo": "visitor",
+          "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
+          "sub": "VISITOR PASS",
+          "cargo": "ANALISTA DOCUMENTAL INDEPENDIENTE",
+          "unidad": "ADSCRIPCIÓN TEMPORAL FBI / MIAMI METRO",
+          "acceso": "ACCESO 03",
+          "bloqueado": false,
+          "secciones": [
+            {
+              "t": "PERFIL",
+              "x": "Tu fortaleza es investigar por tu cuenta, reservar información y desconfiar."
+            },
+            {
+              "t": "INFORMACIÓN CONFIDENCIAL",
+              "x": "Una copia del registro de radio indica que el perímetro principal se aseguró a las 21:50, pero el documento no afirma que todas las salidas secundarias estuvieran cerradas."
+            },
+            {
+              "t": "OBJETIVO",
+              "x": "Verificar la cronología con al menos dos documentos antes de compartir tu conclusión. Conserva una copia de la cadena de custodia."
+            },
+            {
+              "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
+              "x": "PUEDES OCULTAR: tus notas privadas hasta que puedas corroborarlas. NO PUEDES INVENTAR: no tienes evidencia de que el FBI institucional autorizara el traslado."
+            }
+          ]
+        },
+        "P-06": {
+          "tipo": "police",
+          "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
+          "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
+          "cargo": "COORDINADOR/A DE ENLACE / DIRECCIÓN OPERATIVA",
+          "unidad": "OPERADOR RESERVADO",
+          "acceso": "ACCESO 04",
+          "bloqueado": true,
+          "secciones": [
+            {
+              "t": "TU CONEXIÓN ESPECIAL",
+              "x": "Eres el punto de enlace que recibió el primer aviso anónimo que permitió reabrir el expediente MM-21-114. El aviso no reveló quién era N-17; solo indicó dónde encontrar la grabación y qué número de caso revisar. Tu personaje creyó estar ayudando a coordinar una revisión rutinaria."
+            },
+            {
+              "t": "CÓDIGO OPERATIVO Y FUNCIÓN",
+              "x": "Tu código operativo es KESTREL. No eres el autor de la conspiración ni conoces la ubicación de N-17. Tu función es entregar el primer sobre y, en el final, leer la autorización de revisión independiente si el equipo elige esa opción."
+            },
+            {
+              "t": "FRASE DE REVELACIÓN (LEER SOLO DESPUÉS DE LA VOTACIÓN)",
+              "x": "«El primer aviso no llegó al FBI ni a Miami Metro. Llegó a KESTREL. Y KESTREL eras tú»."
+            }
+          ]
+        },
+        "P-07": {
+          "tipo": "visitor",
+          "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
+          "sub": "VISITOR PASS",
+          "cargo": "ANALISTA DOCUMENTAL EXTERNO — P-07",
+          "unidad": "PERSONAL DE APOYO (SÉPTIMO PARTICIPANTE)",
+          "acceso": "ACCESO 01",
+          "bloqueado": false,
+          "secciones": [
+            {
+              "t": "ASIGNACIÓN DE ROL",
+              "x": "Este rol se utiliza únicamente si se suma una séptima persona. No reemplaza a ningún participante."
+            },
+            {
+              "t": "INFORMACIÓN CONFIDENCIAL",
+              "x": "Tu tarea es verificar códigos, fechas y cadena de custodia. Has recibido una copia del registro de cámara y una copia del índice MIRROR."
+            },
+            {
+              "t": "OBJETIVO",
+              "x": "Encontrar dos coincidencias documentales y presentarlas al equipo. No tienes un secreto de culpabilidad ni una pista imprescindible."
+            },
+            {
+              "t": "REGLA OPERATIVA",
+              "x": "No añadas hechos nuevos. Tu función es ayudar a comprobar la consistencia."
+            }
+          ]
+        },
+        "P-08": {
+          "tipo": "visitor",
+          "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
+          "sub": "VISITOR PASS",
+          "cargo": "APOYO INVESTIGATIVO — P-08",
+          "unidad": "PERSONAL DE APOYO (OCTAVO PUESTO)",
+          "acceso": "ACCESO 01",
+          "bloqueado": false,
+          "secciones": [
+            {
+              "t": "ASIGNACIÓN DE ROL",
+              "x": "Este puesto se usa únicamente en partidas de 8 agentes. No reemplaza a ningún personaje del expediente."
+            },
+            {
+              "t": "OBJETIVO",
+              "x": "Ayudar al equipo a comprobar fechas, horas y cadena de custodia, y a encontrar coincidencias entre documentos."
+            },
+            {
+              "t": "REGLA OPERATIVA",
+              "x": "No añadas hechos nuevos ni inventes pruebas. Tu función es apoyar la consistencia de la investigación. No tienes un secreto de culpabilidad."
+            }
+          ]
+        }
       },
-      {
-       "t": "TU SECRETO",
-       "x": "Tu secreto no es que seas culpable ni que hayas ayudado a PALISADE. Tu secreto es que guardaste una copia de una observación que contradice el informe oficial. Te callaste porque recibiste una advertencia de que revelar el documento podía poner en peligro a una persona protegida."
-      },
-      {
-       "t": "PISTA QUE PUEDES REVELAR SI TE PREGUNTAN",
-       "x": "«La muestra demuestra presencia de sangre, no muerte. El informe convirtió una posibilidad en una conclusión»."
-      },
-      {
-       "t": "OBJETIVO FINAL",
-       "x": "Decidir si entregas tu copia para fortalecer la revisión independiente. No reveles esta conexión hasta que el grupo haya recibido EVIDENCIA 003 o hasta que dirección lo indique."
+      "configuracion": {
+        "agentes": 6,
+        "roles": [
+          "P-01",
+          "P-02",
+          "P-03",
+          "P-04",
+          "P-05",
+          "P-06"
+        ],
+        "duracionMs": 5400000
       }
-     ]
-    },
-    "P-02": {
-     "tipo": "police",
-     "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
-     "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
-     "cargo": "AGENTE DE ENLACE — IDENTIDAD OPERATIVA L-02",
-     "unidad": "AFILIACIÓN APARENTE: Miami Metro | AFILIACIÓN REAL: contratista de integridad vinculado a MERIDIAN",
-     "acceso": "ACCESO 03",
-     "bloqueado": false,
-     "secciones": [
-      {
-       "t": "PERFIL",
-       "x": "Tu fortaleza es actuar, sostener versiones y desconfiar. No eres el culpable principal."
-      },
-      {
-       "t": "INFORMACIÓN CONFIDENCIAL",
-       "x": "En 2021 recibiste una instrucción de no usar canales oficiales para registrar movimientos de un activo. Nunca te dijeron el nombre real del activo."
-      },
-      {
-       "t": "OBJETIVO",
-       "x": "Averiguar quién conoce la salida por puerta de carga y comprobar si alguien intenta presentar la extracción como una orden oficial del FBI."
-      },
-      {
-       "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
-       "x": "PUEDES OCULTAR: que tu afiliación aparente no es la completa. NO PUEDES INVENTAR: no tienes pruebas de que N-17 muriera."
-      }
-     ]
-    },
-    "P-03": {
-     "tipo": "police",
-     "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
-     "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
-     "cargo": "INVESTIGADOR/A DE CAMPO — MIAMI METRO",
-     "unidad": "MIAMI FIELD UNIT",
-     "acceso": "ACCESO 02",
-     "bloqueado": false,
-     "secciones": [
-      {
-       "t": "PERFIL",
-       "x": "Tu fortaleza es observar, conversar y conectar testimonios."
-      },
-      {
-       "t": "INFORMACIÓN CONFIDENCIAL",
-       "x": "El informe original tiene una omisión material: no adjunta el anexo de control de puerta de carga. La cadena de custodia del expediente fue cerrada demasiado rápido."
-      },
-      {
-       "t": "OBJETIVO",
-       "x": "Conseguir que dos participantes comparen la hora 21:50 con la hora 22:14 y expliquen por qué no coinciden."
-      },
-      {
-       "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
-       "x": "PUEDES OCULTAR: que sospechas que el cierre del caso fue apresurado. NO PUEDES INVENTAR: no conoces la identidad de N-17 antes de la USB."
-      }
-     ]
-    },
-    "P-04": {
-     "tipo": "police",
-     "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
-     "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
-     "cargo": "ENLACE COMUNITARIO/A Y AUXILIAR DE ENTREVISTAS",
-     "unidad": "ENTREVISTAS — MIAMI METRO",
-     "acceso": "ACCESO 01",
-     "bloqueado": false,
-     "secciones": [
-      {
-       "t": "PERFIL",
-       "x": "Tu fortaleza es ser directa, expresiva y presionar al equipo. Tu personaje puede equivocarse y corregirse."
-      },
-      {
-       "t": "INFORMACIÓN CONFIDENCIAL",
-       "x": "Un testigo de la zona dijo que vio una furgoneta salir después de que la policía declarara el perímetro asegurado. El testigo no pudo identificar conductor ni ocupantes."
-      },
-      {
-       "t": "OBJETIVO",
-       "x": "Lograr que el equipo discuta la posibilidad de que el informe original sea falso. Puedes señalar sospechosos, pero tendrás que justificarte cuando te pidan pruebas."
-      },
-      {
-       "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
-       "x": "PUEDES OCULTAR: la identidad del testigo. NO PUEDES INVENTAR: el testigo no vio quién iba dentro de la furgoneta."
-      }
-     ]
-    },
-    "P-05": {
-     "tipo": "visitor",
-     "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
-     "sub": "VISITOR PASS",
-     "cargo": "ANALISTA DOCUMENTAL INDEPENDIENTE",
-     "unidad": "ADSCRIPCIÓN TEMPORAL FBI / MIAMI METRO",
-     "acceso": "ACCESO 03",
-     "bloqueado": false,
-     "secciones": [
-      {
-       "t": "PERFIL",
-       "x": "Tu fortaleza es investigar por tu cuenta, reservar información y desconfiar."
-      },
-      {
-       "t": "INFORMACIÓN CONFIDENCIAL",
-       "x": "Una copia del registro de radio indica que el perímetro principal se aseguró a las 21:50, pero el documento no afirma que todas las salidas secundarias estuvieran cerradas."
-      },
-      {
-       "t": "OBJETIVO",
-       "x": "Verificar la cronología con al menos dos documentos antes de compartir tu conclusión. Conserva una copia de la cadena de custodia."
-      },
-      {
-       "t": "PUEDES OCULTAR / NO PUEDES INVENTAR",
-       "x": "PUEDES OCULTAR: tus notas privadas hasta que puedas corroborarlas. NO PUEDES INVENTAR: no tienes evidencia de que el FBI institucional autorizara el traslado."
-      }
-     ]
-    },
-    "P-06": {
-     "tipo": "police",
-     "cabecera": "MIAMI METRO | CASE REVIEW UNIT",
-     "sub": "IDENTIFICACIÓN DEL PARTICIPANTE",
-     "cargo": "COORDINADOR/A DE ENLACE / DIRECCIÓN OPERATIVA",
-     "unidad": "OPERADOR RESERVADO",
-     "acceso": "ACCESO 04",
-     "bloqueado": true,
-     "secciones": [
-      {
-       "t": "TU CONEXIÓN ESPECIAL",
-       "x": "Eres el punto de enlace que recibió el primer aviso anónimo que permitió reabrir el expediente MM-21-114. El aviso no reveló quién era N-17; solo indicó dónde encontrar la grabación y qué número de caso revisar. Tu personaje creyó estar ayudando a coordinar una revisión rutinaria."
-      },
-      {
-       "t": "CÓDIGO OPERATIVO Y FUNCIÓN",
-       "x": "Tu código operativo es KESTREL. No eres el autor de la conspiración ni conoces la ubicación de N-17. Tu función es entregar el primer sobre y, en el final, leer la autorización de revisión independiente si el equipo elige esa opción."
-      },
-      {
-       "t": "FRASE DE REVELACIÓN (LEER SOLO DESPUÉS DE LA VOTACIÓN)",
-       "x": "«El primer aviso no llegó al FBI ni a Miami Metro. Llegó a KESTREL. Y KESTREL eras tú»."
-      }
-     ]
-    },
-    "P-07": {
-     "tipo": "visitor",
-     "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
-     "sub": "VISITOR PASS",
-     "cargo": "ANALISTA DOCUMENTAL EXTERNO — P-07",
-     "unidad": "PERSONAL DE APOYO (SÉPTIMO PARTICIPANTE)",
-     "acceso": "ACCESO 01",
-     "bloqueado": false,
-     "secciones": [
-      {
-       "t": "ASIGNACIÓN DE ROL",
-       "x": "Este rol se utiliza únicamente si se suma una séptima persona. No reemplaza a ningún participante."
-      },
-      {
-       "t": "INFORMACIÓN CONFIDENCIAL",
-       "x": "Tu tarea es verificar códigos, fechas y cadena de custodia. Has recibido una copia del registro de cámara y una copia del índice MIRROR."
-      },
-      {
-       "t": "OBJETIVO",
-       "x": "Encontrar dos coincidencias documentales y presentarlas al equipo. No tienes un secreto de culpabilidad ni una pista imprescindible."
-      },
-      {
-       "t": "REGLA OPERATIVA",
-       "x": "No añadas hechos nuevos. Tu función es ayudar a comprobar la consistencia."
-      }
-     ]
-    },
-    "P-08": {
-     "tipo": "visitor",
-     "cabecera": "EXTERNAL REVIEW | CONSULTORÍA EXTERNA",
-     "sub": "VISITOR PASS",
-     "cargo": "APOYO INVESTIGATIVO — P-08",
-     "unidad": "PERSONAL DE APOYO (OCTAVO PUESTO)",
-     "acceso": "ACCESO 01",
-     "bloqueado": false,
-     "secciones": [
-      {
-       "t": "ASIGNACIÓN DE ROL",
-       "x": "Este puesto se usa únicamente en partidas de 8 agentes. No reemplaza a ningún personaje del expediente."
-      },
-      {
-       "t": "OBJETIVO",
-       "x": "Ayudar al equipo a comprobar fechas, horas y cadena de custodia, y a encontrar coincidencias entre documentos."
-      },
-      {
-       "t": "REGLA OPERATIVA",
-       "x": "No añadas hechos nuevos ni inventes pruebas. Tu función es apoyar la consistencia de la investigación. No tienes un secreto de culpabilidad."
-      }
-     ]
     }
-   },
-   "configuracion": {
-    "agentes": 6,
-    "roles": [
-     "P-01",
-     "P-02",
-     "P-03",
-     "P-04",
-     "P-05",
-     "P-06"
-    ],
-    "duracionMs": 5400000
-   }
+  },
+  "admins": {
+    "W9urEb3knFQCd5nEaFkv8iMvU3j1": true
   }
- }
 }
