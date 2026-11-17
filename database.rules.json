@@ -1,0 +1,71 @@
+{
+ "rules": {
+  ".read": false,
+  ".write": false,
+  "admins": {
+   "$uid": {
+    ".read": "auth != null && auth.uid === $uid"
+   }
+  },
+  "partidas": {
+   "caso-001": {
+    "privado": {
+     ".read": "(auth != null && root.child('admins/'+auth.uid).val() === true)",
+     ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true)"
+    },
+    "miembros": {
+     "$uid": {
+      ".read": "auth != null && (auth.uid === $uid || (auth != null && root.child('admins/'+auth.uid).val() === true))",
+      ".write": "auth != null && ((auth.uid === $uid && !data.exists() && newData.child('codigo').isString() && newData.child('codigo').val() === root.child('partidas/caso-001/privado/codigo').val()) || (auth != null && root.child('admins/'+auth.uid).val() === true))",
+      ".validate": "newData.hasChildren(['codigo','ts'])"
+     }
+    },
+    "configuracion": {
+     ".read": "(auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) || (auth != null && root.child('admins/'+auth.uid).val() === true)",
+     ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true)"
+    },
+    "estado": {
+     ".read": "(auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) || (auth != null && root.child('admins/'+auth.uid).val() === true)",
+     ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true)"
+    },
+    "evidencias": {
+     ".read": "(auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) || (auth != null && root.child('admins/'+auth.uid).val() === true)",
+     ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true)"
+    },
+    "players": {
+     ".read": "(auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) || (auth != null && root.child('admins/'+auth.uid).val() === true)",
+     "$rol": {
+      ".validate": "$rol.matches(/^P-0[1-8]$/)",
+      ".write": "auth != null && ((auth != null && root.child('admins/'+auth.uid).val() === true) || ((auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) && ((!data.exists() && newData.child('uid').val() === auth.uid) || (data.child('uid').val() === auth.uid && (!newData.exists() || newData.child('uid').val() === auth.uid)))))"
+     }
+    },
+    "presencia": {
+     ".read": "(auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) || (auth != null && root.child('admins/'+auth.uid).val() === true)",
+     "$uid": {
+      ".write": "auth != null && auth.uid === $uid && (auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists())"
+     }
+    },
+    "historial": {
+     ".read": "(auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) || (auth != null && root.child('admins/'+auth.uid).val() === true)",
+     ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true)",
+     ".indexOn": [
+      "ts"
+     ],
+     "$id": {
+      ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true) || ((auth != null && root.child('partidas/caso-001/miembros/'+auth.uid).exists()) && !data.exists() && newData.child('uid').val() === auth.uid && newData.child('tipo').val() === 'agente' && newData.child('texto').isString() && newData.child('texto').val().length < 200)"
+     }
+    },
+    "sobres": {
+     "$rol": {
+      ".read": "auth != null && ((auth != null && root.child('admins/'+auth.uid).val() === true) || root.child('partidas/caso-001/players/'+$rol+'/uid').val() === auth.uid)",
+      ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true)"
+     }
+    },
+    "respaldos": {
+     ".read": "(auth != null && root.child('admins/'+auth.uid).val() === true)",
+     ".write": "(auth != null && root.child('admins/'+auth.uid).val() === true)"
+    }
+   }
+  }
+ }
+}
