@@ -1,0 +1,2 @@
+# Private game data — never commit player envelopes or local secrets.
+/datos-iniciales.json
