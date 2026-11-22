@@ -19,7 +19,13 @@ Abre `index.html` y pega tus datos en el bloque `firebaseConfig` (está comentad
 ## C. GitHub Pages
 Repositorio nuevo (público) → **Add file → Upload files** → sube `index.html` → **Settings → Pages** → rama `main`, carpeta `/ (root)`. Tu link será `https://TUUSUARIO.github.io/NOMBRE-REPO/`.
 
-## D. Datos privados y seguridad\n- Los sobres de personajes (`sobres/P-01` a `sobres/P-08`) contienen información que no debe publicarse ni compartirse entre jugadores.\n- No guardes sobres, secretos, claves ni datos privados en archivos del repositorio público, capturas o mensajes compartidos.\n- Los datos privados deben cargarse únicamente en la ubicación protegida de Firebase y sus permisos deben comprobarse con las reglas antes de iniciar una partida.\n- Si la base ya contiene información, no la reemplaces con una importación general. Haz primero una copia de seguridad.\n\n## E. Uso
+## D. Datos privados y seguridad
+- Los sobres de personajes (`sobres/P-01` a `sobres/P-08`) contienen información que no debe publicarse ni compartirse entre jugadores.
+- No guardes sobres, secretos, claves ni datos privados en archivos del repositorio público, capturas o mensajes compartidos.
+- Los datos privados deben cargarse únicamente en la ubicación protegida de Firebase y sus permisos deben comprobarse con las reglas antes de iniciar una partida.
+- Si la base ya contiene información, no la reemplaces con una importación general. Haz primero una copia de seguridad.
+
+## E. Uso
 - **Dirección**: entra con tu correo/contraseña → elige cuántos agentes → **NUEVO CÓDIGO** → comparte link y código.
 - **Agentes**: abren el link → CONECTAR A LA CENTRAL → código (y nombre) → eligen personaje o "asignar automáticamente".
 
